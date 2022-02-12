@@ -1,8 +1,14 @@
-/*
-Exercici 5. Crea una classe Animal amb el mètode correr() sobrecarregat tres vegades. Defineix una nova classe (per exemple Gat) que hereti de l'anterior i afegeix una nova versió sobrecarregada del mateix mètode. Mostra que els quatre mètodes estan disponibles a la classe derivada (per exemple enviant un missatge a la consola).
-
- */
-
 
 public class App {
+
+    public static void main(String[] args) {
+
+        Gat gat1 = new Gat();
+        gat1.correr();
+        gat1.correr("botes");
+        gat1.correr("samarreta", 10);
+        gat1.correr("ulleres", 100, true);
+        gat1.correr("botes", "ulleres");
+
+    }
 }
