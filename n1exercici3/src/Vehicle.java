@@ -1,9 +1,4 @@
-/*
-Exercici 3. Demostra que el procés de càrrega d'una classe només té lloc una vegada.
-Demostra que la càrrega pot ser provocada per la creació de la primera instància d'aquesta classe
-o per l'accés a un membre estàtic d'aquesta.
-Idea: Cerca informació sobre els blocs d'inicialització a Java.
- */
+
 
 public class Vehicle {
 
@@ -16,7 +11,7 @@ public class Vehicle {
     }
 
     public Vehicle() {
-        System.out.println("[+] Metode constructor Vehicle class");
+        System.out.println("[+] Metode constructor");
     }
 
     public void metodeInstancia() {
@@ -27,16 +22,5 @@ public class Vehicle {
         System.out.println("[+] Mètode estàtic");
     }
 
-    public void iniciar() {
-        System.out.println("[+] Metode Iniciar Vehicle class");
-    }
-
-    public static void parar() {
-        System.out.println("[+] Metode Static Parar Vehicle class");
-    }
-
-    public void accelerar() {
-        System.out.println("[+] Metode Non-Static Accelerar Vehicle class");
-    }
 
 }
