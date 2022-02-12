@@ -7,7 +7,7 @@ Exercici 2. A la classe Vehicle afegeix dos mètodes: un static anomenat parar()
 public class Vehicle {
 
     public Vehicle() {
-        System.out.println("[-] Metode constructor Vehicle class");
+       // System.out.println("[-] Metode constructor Vehicle class");
     }
 
     public void iniciar() {
